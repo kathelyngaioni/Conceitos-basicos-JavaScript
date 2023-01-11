@@ -9,3 +9,10 @@ Existem alguns outros valores de variáveis que não são nem true nem false, ma
 • Type of É uma palavra chave que serve para perguntarmos ao JavaScript qual é o tipo de dado que está sendo guardado nessa variável.
 
 • Bug Null
+
+
+♡ Conversão Implicita e Conversão Explicita
+
+• Number() • String() • toString() • +
+
+Apesar do JavaScript fazer a maioria das conversões de forma correta, problemas podem aparecer, então é sempre bom fazer as conversões de forma explícita. Não é comum usar o operador de soma para fazer a conversão para números, mas este uso é possível. Conversões de booleanos não costumam ser muito usados, mas são possíveis.
