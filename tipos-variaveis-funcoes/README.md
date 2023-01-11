@@ -1,0 +1,3 @@
+var, let e const
+
+O var, como ele foi criado no começo do JavaScript quando não existia let e const, era a única opção e todo mundo só podia usar var, então, pode ser que algumas documentações mais antigas ainda utilizem essa forma. Hoje em dia, a var não é mais utilizada, justamente, porque ela é muito propensa à bugs, então, usamos o let, quando sabemos que o valor da variável vai precisar mudar, vai precisar ser reatribuído; para todos os outros casos, vocês podem usar const, sempre.
