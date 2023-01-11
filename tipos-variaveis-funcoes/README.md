@@ -22,3 +22,13 @@ Apesar do JavaScript fazer a maioria das conversões de forma correta, problemas
 • NaN • Infinity • null e undefined • length • toLowerCase() • Codificação de caracteres
 
 Diferente de outras linguagens de programação como Java ou Python, divisão por zero no JavaScript não gera um erro. O retorno desta operação é infinito ou infinito negativo (Infinity). Porém, a divisão de zero por zero resulta num NaN (not a number).
+
+♡ Template Literal
+
+O template string surgiu para facilitar a questão de concatenação, porque, dependendo da quantidade de variáveis que você quer juntar, tudo começa a ficar muito embolado.
+
+A notação ${} permite a inserção de valores de variáveis dentro de uma string de texto.
+
+♡ Hoisting - Função 
+O JavaScript antes de fazer qualquer coisa no código, ele lista as funções que são declaradas e o que é declarado como var, e antes de começar qualquer coisa, ele já sabe o que é. Então, por isso que funciona se chamarmos a função declarada antes dela existir, como no exemplo da função (const soma2)
+
