@@ -16,3 +16,9 @@ Existem alguns outros valores de variáveis que não são nem true nem false, ma
 • Number() • String() • toString() • +
 
 Apesar do JavaScript fazer a maioria das conversões de forma correta, problemas podem aparecer, então é sempre bom fazer as conversões de forma explícita. Não é comum usar o operador de soma para fazer a conversão para números, mas este uso é possível. Conversões de booleanos não costumam ser muito usados, mas são possíveis.
+
+
+♡ Tipos Primitivos
+• NaN • Infinity • null e undefined • length • toLowerCase() • Codificação de caracteres
+
+Diferente de outras linguagens de programação como Java ou Python, divisão por zero no JavaScript não gera um erro. O retorno desta operação é infinito ou infinito negativo (Infinity). Porém, a divisão de zero por zero resulta num NaN (not a number).
