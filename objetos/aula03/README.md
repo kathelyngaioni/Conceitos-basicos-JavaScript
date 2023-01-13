@@ -1,0 +1,1 @@
+• includes() : determina se um array/objeto contém um determinado elemento ou não, retornando true ou false.
